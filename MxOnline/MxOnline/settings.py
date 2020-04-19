@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'apps.users',
+
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -132,5 +135,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
+
+# 设置用户模型类
+AUTH_USER_MODEL='users.UserProfile'
 
 STATIC_URL = '/static/'
