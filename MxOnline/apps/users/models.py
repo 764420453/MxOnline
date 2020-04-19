@@ -36,6 +36,8 @@ class EmailVerifyRecord(models.Model):
         verbose_name_plural = verbose_name
 
 
+
+
 class Banner(models.Model):
     """主页轮播图"""
     title = models.CharField(max_length=100, verbose_name=u"标题")

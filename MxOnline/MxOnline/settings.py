@@ -43,7 +43,15 @@ INSTALLED_APPS = [
     'apps.organization',
     'apps.operation',
 
+    # 需要添加的两个app
+    'xadmin',
+    'crispy_forms',
+
 ]
+
+
+
+
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
